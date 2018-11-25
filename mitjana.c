@@ -6,7 +6,7 @@ int main() {
 	float nou_valor;
 	int numero_repeticions=0;
 	char consulta='s';
-	
+   
 	while(consulta=='s') {
 		printf("Dona la següent dada: ");
 		scanf("%f",&nou_valor);
@@ -16,6 +16,6 @@ int main() {
 		scanf("%c",&consulta); 
 	}
 	mitjana=suma/numero_repeticions;
-	printf("La mitjana resultant és: %.2f\n",mitjana);	
+	printf("La mitjana resultant és: %.2f\n",mitjana);
 	return 0;
 }
